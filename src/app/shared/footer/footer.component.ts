@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { faAngular, faFontAwesome } from '@fortawesome/free-brands-svg-icons';
 
 @Component({
   selector: 'app-footer',
@@ -7,7 +6,6 @@ import { faAngular, faFontAwesome } from '@fortawesome/free-brands-svg-icons';
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent implements OnInit {
-  faAngular = faAngular;
   constructor() { }
 
   ngOnInit() {
