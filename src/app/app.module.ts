@@ -8,15 +8,17 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { IndexComponent } from './secondary/index/index.component';
 import { NosotrosComponent } from './secondary/nosotros/nosotros.component';
+import { PricingComponent } from './secondary/pricing/pricing.component';
 
 const rutas: Routes = [
  { path: '', component: IndexComponent },
- { path: 'nosotros', component: NosotrosComponent}
+ { path: 'nosotros', component: NosotrosComponent},
+ { path: 'precios', component: PricingComponent}
 ];
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, RouterModule.forRoot(rutas) ],
-  declarations: [ AppComponent, NavbarComponent, FooterComponent, IndexComponent, NosotrosComponent ],
+  declarations: [ AppComponent, NavbarComponent, FooterComponent, IndexComponent, NosotrosComponent, PricingComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
