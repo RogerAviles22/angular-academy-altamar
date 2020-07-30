@@ -46,6 +46,11 @@
   width: 0;
 }
 
+.section.lb {
+    background-color: #f2f3f5;
+}
+
+
 .nav-pills {
     border: 1px solid #e1e1e1;
 	border-radius: 2px;
