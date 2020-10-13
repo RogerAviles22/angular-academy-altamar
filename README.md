@@ -20,3 +20,6 @@ Para back-end, es un tema a discutir porque aún no se define qué se va a regis
 * Un admin que controle los usuarios registrados.
 * Registrar los productos disponibles de la Tienda.
 * Registro de Maestros para visualizar su perfil en la página.
+
+Paleta de Coloores
+https://coolors.co/feee00-060808-a85638-2a4579-5db7de-ffffff

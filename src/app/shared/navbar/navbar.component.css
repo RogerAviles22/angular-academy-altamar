@@ -1,9 +1,9 @@
 .top-navbar .bg-light{
-	background: #f3f3ff !important;
+	background: #2A4579 !important;
 }
 
 .top-navbar .navbar-light .navbar-nav .nav-link{
-	color: #0000e6;
+	color: #ffffff;
 	font-size: 16px;
 	font-weight: 500;
 }
@@ -111,7 +111,7 @@
 	left: 40%;
 }
 .top-navbar .navbar-light .navbar-nav .nav-item .nav-link:hover{
-	color: #50B0E1;
+	color: #FEEE00;
 }
 .top-navbar .navbar-light .navbar-nav .nav-item .nav-link:hover::after{
 	opacity: 1;
@@ -209,9 +209,10 @@
   width: 0;
 }
 
+/*Hamburguesa*/
 
 .navbar-toggler{
-	background: #eea412;
+	background: #ffffff;
 	border-radius: 0px;
 	padding: 10px 10px;
 }
@@ -228,35 +229,9 @@
 }
 
 .navbar-toggler:hover{
-	background: #eea412;
+	background: rgb(255, 255, 255);
 }
 
 .navbar-toggler:hover .icon-bar{
-	background: black;
-}
-
-.hover-btn-new::before {
-  height: 100%;
-  left: 0;
-  top: 0;
-  width: 100%;
-}
-
-.hover-btn-new::after {
-  background: #eea412 !important;
-  height: 100%;
-  left: 0;
-  top: 0;
-  width: 100%;
-}
-.hover-btn-new span{
-	position: relative;
-	z-index: 2;
-}
-
-.hover-btn-new:hover:after {
-  height: 0;
-  left: 50%;
-  top: 50%;
-  width: 0;
+	background: rgb(0, 0, 0);
 }
